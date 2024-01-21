@@ -8,6 +8,8 @@
     <!-- Tailwind and Daisy UI -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FOnt Awesome -->
+    <script src="https://kit.fontawesome.com/61910c2e0f.js" crossorigin="anonymous"></script>
     <!-- Google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -127,14 +129,14 @@
         <section class="max-w-[1140px] mx-auto mt-32">
             <div class="flex flex-col gap-12 lg:flex-row">
 
-                <div class="grid grid-cols-2 grid-rows-3 gap-5">
+                <div class="grid grid-cols-2 grid-rows-3 gap-5 flex-1">
                     <div class="opacity-10 bg-gradient-to-r from-[#F00] to-[#FF8938] rounded-lg"></div>
                     <div class="row-span-2 bg-[#e6a6231a] p-7 rounded-lg"><img src="./images/fresh-1.png" alt=""></div>
                     <div class="row-span-2 bg-[#5776391a] p-7 rounded-lg"><img src="./images/fresh-2.png" alt=""></div>
                     <div class="col-start-2 row-start-3 bg-gradient-to-r from-[#D9D9D9] to-white rounded-lg"></div>
                 </div>
 
-                <div class="space-y-5 w-1/2">
+                <div class="space-y-5 flex-1 md:text-center lg:text-left">
                     <h3 class="font-extrabold text-5xl text-tea-color">Great Tea, Freshly <br>
                         Presented</h3>
                     <p class="text-tea-p">The meaning of gong cha is chanese is to provide the best tea to emperor from
@@ -155,61 +157,166 @@
         </section>
         <!-- Super Clients -->
         <section class="mt-32">
-            <div class="flex gap-14 flex-col items-center py-24 px-16 lg:flex-row bg-gradient-to-r from-gradient-st to-gradient-end rounded-lg">
+            <div
+                class="flex gap-14 flex-col items-center py-24 px-16 lg:flex-row bg-gradient-to-r from-gradient-st to-gradient-end rounded-lg">
                 <div class="space-y-7">
                     <h3 class="font-extrabold text-[45px] text-white">Meet Our Super <br>
                         Clients</h3>
-                    <p class="text-white w-[440px]"> There are many variations of passages of Lorem Ipsum available, but the
+                    <p class="text-white w-[440px]"> There are many variations of passages of Lorem Ipsum available, but
+                        the
                         majority have suffered
                         alteration in some form, by injected humour, or randomised words which don't look even slightly
                         believable. </p>
                     <button class="btn bg-white text-gradient-st font-bold text-xl">Show All</button>
                 </div>
                 <div class="relative ml-16">
-                    <div class="relative rounded-lg mb-14 opacity-40 z-10 bg-white w-[433px] py-10 px-12">
+                    <div class="relative w-auto rounded-lg mb-14 opacity-40 z-10 bg-white py-10 px-12">
                         <div>
-                            <img class="absolute -left-5 -top-5 border-4 rounded-full border-white bg-white " src="./images/client.png" alt="">
+                            <img class="absolute -left-5 -top-5 border-4 rounded-full border-white bg-white "
+                                src="./images/client.png" alt="">
                         </div>
-                        <p class="text-tea-p">We are providing the best and suitable home insurance services for the people who are interested
+                        <p class="text-tea-p">We are providing the best and suitable home insurance services for the
+                            people who are interested
                             to treatment</p>
-                            <h3 class="pt-5 text-tea-color font-bold">Ilham Yuda</h3>
-                            <h2 class="text-tea-p">Businessman</h2>
-                            <div class="flex justify-end">
-                                <img src="./images/circles.png" alt="">
-                            </div>
+                        <h3 class="pt-5 text-tea-color font-bold">Ilham Yuda</h3>
+                        <h2 class="text-tea-p">Businessman</h2>
+
                     </div>
-                    <div class="absolute top-40 right-20 rounded-lg z-20 bg-white w-[433px] py-10 px-12">
+                    <div class="absolute top-32  right-20 rounded-lg z-20 bg-white w-full  py-10 px-12">
                         <div>
-                            <img class="absolute -left-5 -top-5 border-4 rounded-full border-white bg-white " src="./images/client.png" alt="">
+                            <img class="absolute -left-5 -top-5 border-4 rounded-full border-white bg-white "
+                                src="./images/client.png" alt="">
                         </div>
-                        <p class="text-tea-p">We are providing the best and suitable home insurance services for the people who are interested
+                        <p class="text-tea-p">We are providing the best and suitable home insurance services for the
+                            people who are interested
                             to treatment</p>
-                            <h3 class="pt-5 text-tea-color font-bold">Ilham Yuda</h3>
-                            <h2 class="text-tea-p">Businessman</h2>
-                            <div class="flex justify-end">
-                                <img src="./images/circles.png" alt="">
-                            </div>
+                        <h3 class="pt-5 text-tea-color font-bold">Ilham Yuda</h3>
+                        <h2 class="text-tea-p">Businessman</h2>
+                        <div class="flex justify-end">
+                            <img src="./images/circles.png" alt="">
+                        </div>
                     </div>
-                    <div class="relative rounded-lg opacity-40 z-10 bg-white w-[433px] py-10 px-12">
+                    <div class="relative rounded-lg opacity-40 z-10 bg-white py-10 px-12">
                         <div>
-                            <img class="absolute -left-5 -top-5 border-4 rounded-full border-white bg-white " src="./images/client.png" alt="">
+                            <img class="absolute -left-5 -top-5 border-4 rounded-full border-white bg-white "
+                                src="./images/client.png" alt="">
                         </div>
-                        <p class="text-tea-p">We are providing the best and suitable home insurance services for the people who are interested
+                        <p class="text-tea-p">We are providing the best and suitable home insurance services for the
+                            people who are interested
                             to treatment</p>
-                            <h3 class="pt-5 text-tea-color font-bold">Ilham Yuda</h3>
-                            <h2 class="text-tea-p">Businessman</h2>
-                            <div class="flex justify-end">
-                                <img src="./images/circles.png" alt="">
-                            </div>
+                        <h3 class="pt-5 text-tea-color font-bold">Ilham Yuda</h3>
+                        <h2 class="text-tea-p">Businessman</h2>
+
                     </div>
                 </div>
             </div>
 
         </section>
+        <section class="mt-32">
+            <!-- News and Event -->
+            <div class="text-center">
+                <h3 class="text-tea-color font-extrabold text-[45px]">News & Events</h3>
+                <p class="text-base font-medium text-tea-p mx-auto mb-12 mt-5">There are many variations of
+                    passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by
+                    injected humour, or randomised words which don't look even slightly believable. </p>
+            </div>
+            <div class="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+                <!-- card 1 -->
+                <div class="card border pt-5 border-[#D2D2D2]">
+                    <figure><img src="./images/news-1.png" alt="news" /></figure>
+                    <div class="card-body">
+                        <p class="text-tea-p">Feb 05, 2027</p>
+                      <h2 class="card-title text-tea-color font-extrabold text-xl">Collecting 8 points for
+                        <br>
+                         discount</h2>
+                      <p class="text-tea-p">There are many variations of passages of Lorem Ipsum available.</p>
+                      <h3 class="font-bold">Learn More</h3>
+                    </div>
+                  </div>
+                <!-- card 2 -->
+                <div class="card border pt-5 border-[#D2D2D2]">
+                    <figure><img src="./images/news-2.png" alt="news" /></figure>
+                    <div class="card-body">
+                        <p class="text-tea-p">Feb 05, 2027</p>
+                      <h2 class="card-title text-tea-color font-extrabold text-xl">Collecting 8 points for
+                        <br>
+                         discount</h2>
+                      <p class="text-tea-p">There are many variations of passages of Lorem Ipsum available.</p>
+                      <h3 class="font-bold">Learn More</h3>
+                    </div>
+                  </div>
+                <!-- card 3 -->
+                <div class="card border pt-5 border-[#D2D2D2]">
+                    <figure><img src="./images/news-3.png" alt="news" /></figure>
+                    <div class="card-body">
+                        <p class="text-tea-p">Feb 05, 2027</p>
+                      <h2 class="card-title text-tea-color font-extrabold text-xl">Collecting 8 points for
+                        <br>
+                         discount</h2>
+                      <p class="text-tea-p">There are many variations of passages of Lorem Ipsum available.</p>
+                      <h3 class="font-bold">Learn More</h3>
+                    </div>
+                  </div>
+            </div>
+        </section>
     </main>
-    <footer>
-
-    </footer>
+    <footer class="mt-32 bg-gradient-to-r from-[#FF89381A] to-[#FF00001A]">
+        <div class="max-w-[1140px] mx-auto">
+            <div class="py-28 flex justify-between items-center">
+                <div>
+                    <img src="./images/cup.png" alt="">
+                </div>
+                <div class="flex items-center gap-10">
+                    <p class="text-xl text-tea-p">Ready to get strated?</p>
+                    <button
+                            class="btn bg-gradient-to-r from-gradient-st to-gradient-end font-manrope text-xl font-bold text-white h-16 rounded-lg">Get Started</button>
+                </div>
+            </div>
+            <div class="footer justify-between text-base-content">
+                <nav>
+                    <header class=" text-xl text-tea-color font-semibold">Quick Links</header> 
+                    <a class="link link-hover">Home</a>
+                    <a class="link link-hover">About us</a>
+                    <a class="link link-hover">Insurance</a>
+                    <a class="link link-hover">Privacy Policy</a>
+                  </nav> 
+                  <nav>
+                    <header class=" text-xl text-tea-color font-semibold">Our Service</header> 
+                    <a class="link link-hover">Life Insurance</a>
+                    <a class="link link-hover">Car Insurance</a>
+                    <a class="link link-hover">Health Insurance</a>
+                    <a class="link link-hover">House Insurance</a>
+                  </nav> 
+                  <nav>
+                    <header class=" text-xl text-tea-color font-semibold">Help</header> 
+                    <a class="link link-hover">FAQs</a>
+                    <a class="link link-hover">Contact Us</a>
+                  </nav> 
+                  <form>
+                    <header class="text-2xl text-tea-color font-semibold">Subscribe to our <br>
+                         newsletter</header> 
+                    <fieldset class="form-control w-80">
+                      <label class="label">
+                      </label> 
+                      <div class="join">
+                        <input type="text" placeholder="Email address" class="border-b-2 pb-4 border-[#494949] outline-none bg-transparent" /> 
+                        <button class="h-8 w-8 bg-gradient-to-r from-gradient-st to-gradient-end rounded-full"><p class="text-white"><i class="fa-solid fa-chevron-right"></i></p></button>
+                      </div>
+                    </fieldset>
+                  </form>
+            </div>
+            <div class="flex justify-end pr-56 gap-6 pt-12">
+                <p><i class="fa-brands fa-facebook-f"></i></p>
+                            <p><i class="fa-brands fa-twitter"></i></p>
+                            <p><i class="fa-brands fa-instagram"></i></p>
+            </div>
+            <div class="text-center text-tea-p pt-14 pb-32">
+                    <aside>
+                      <p class="text-[#494949]">© 2027 UIDesign.to - All rights reserved.</p>
+                    </aside>
+            </div>
+        </div>
+      </footer>
 
 </body>
 
